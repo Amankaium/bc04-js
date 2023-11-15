@@ -1,3 +1,35 @@
 h1 {
     color: red;
 }
+
+.sign-wrap-1 {
+    background: #337AB7;
+    text-align: center;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.sign-wrap-1 .sign_word {
+    font-weight: bold;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    animation: neon-1 2s ease-in-out infinite alternate;
+}
+@keyframes neon-1 {
+    from {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(191, 226, 255, 0.52), 0 0 21px rgba(191, 226, 255, 0.92), 0 0 34px rgba(191, 226, 255, 0.78), 0 0 54px rgba(191, 226, 255, 0.92);
+    }
+    to {
+        text-shadow: 0 0 16px rgba(202, 228, 225, 0.98), 0 0 130px rgba(202, 228, 225, 0.42), 0 0 112px rgba(191, 226, 255, 0.58), 0 0 122px rgba(191, 226, 255, 0.84), 0 0 138px rgba(191, 226, 255, 0.88), 0 0 160px #FFF;
+    }
+}
+
+#res {
+    font-size: 18px;
+    margin: 3px;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 5px;
+}
